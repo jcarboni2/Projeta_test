@@ -96,8 +96,16 @@ bundle install (Gemfile included)
 Download the geckodriver, chromedriver and phantomjs. Keep them within a
 desired folder and set this folder path on the environment variables.
 
-To perform the first activity, execute one of commands below on the Projeta_Test
-folder to validate the tests as desired.
+Open a command console (e.g. cmder or cmd). Execute the command line below:
+
+git clone https://github.com/jcarboni2/Projeta_test.git
+
+Access the folder of downloaded project
+
+To perform the first activity, execute the command line setting the
+desired configuration as described bellow in the "Notes:"
+
+Command line:
 
 cucumber "browser" USERNAME=tomsmith PASSWORD=SuperSecretPassword! --tag "tag"
 
@@ -108,10 +116,14 @@ Notes:
   * for scenario as @valid_login or @invalid_login
 
 
-To perform the second activity, execute the command below on the Projeta_Test
-folder.
+To perform the second activity, execute the command line setting the
+desired configuration as described bellow in the "Notes:"
+
+Command line:
 
 cucumber --tag "tag"
+
+Notes:
 - Change "tag"
   * for feature as @search_cep
   * for scenario as @valid_cep or @invalid_cep
