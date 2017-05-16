@@ -5,10 +5,10 @@ Getting Started
 
 # Cucumber/Capybara
 
-In the activity 1 was used Cucumber, Capybara, Page-Object, Site_Prism, RSpec
+* In the activity 1 was used Cucumber, Capybara, Page-Object, Site_Prism, RSpec
 and Webdrivers.
 
-Note: The Page-Object and Site_Prism libraries were used to keep the project
+* Note: The Page-Object and Site_Prism libraries were used to keep the project
 more organized and structured. The RSpec library was used to validate the
 expectations.
 
@@ -36,9 +36,9 @@ automação do mesmo.
 
 # Cucumber/HTTParty
 
-In the activity 2 was used Cucumber, HTTParty and RSpec.
+* In the activity 2 was used Cucumber, HTTParty and RSpec.
 
-Note: The RSpec library was used to validate the expectations.
+* Note: The RSpec library was used to validate the expectations.
 
 2	- Automação Backend
 
@@ -108,13 +108,13 @@ desired configuration as described bellow in the "Notes:"
 Command line:
 
 cucumber "browser" USERNAME=tomsmith PASSWORD=SuperSecretPassword! --tag "tag"
-
+```
 Notes:
   Change "browser" for chrome=true or firefox=true or headless=true
   Change "tag"
     For feature as @login
     For scenario as @valid_login or @invalid_login
-
+```
 
 * To perform the second activity, execute the command line setting the
 desired configuration as described bellow in the "Notes:"
@@ -122,8 +122,9 @@ desired configuration as described bellow in the "Notes:"
 Command line:
 
 cucumber --tag "tag"
-
+```
 Notes:
-Change "tag"
-  For feature as @search_cep
+  Change "tag"
+  "For feature as @search_cep"
   For scenario as @valid_cep or @invalid_cep
+```
