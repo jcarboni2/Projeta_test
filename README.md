@@ -93,16 +93,16 @@ gem install bundler
 bundle install (Gemfile included)
 ```
 
-Download the geckodriver, chromedriver and phantomjs. Keep them within a
+* Download the geckodriver, chromedriver and phantomjs. Keep them within a
 desired folder and set this folder path on the environment variables.
 
-Open a command console (e.g. cmder or cmd). Execute the command line below:
+* Open a command console (e.g. cmder or cmd). Execute the command line below:
 
-git clone https://github.com/jcarboni2/Projeta_test.git
+* git clone https://github.com/jcarboni2/Projeta_test.git
 
-Access the folder of downloaded project
+* Access the folder of downloaded project
 
-To perform the first activity, execute the command line setting the
+* To perform the first activity, execute the command line setting the
 desired configuration as described bellow in the "Notes:"
 
 Command line:
@@ -116,7 +116,7 @@ Notes:
   * for scenario as @valid_login or @invalid_login
 
 
-To perform the second activity, execute the command line setting the
+* To perform the second activity, execute the command line setting the
 desired configuration as described bellow in the "Notes:"
 
 Command line:
