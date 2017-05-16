@@ -82,8 +82,8 @@ response code.
 * Install Ruby 2.3.0 from https://rubyinstaller.org/downloads/
 * Install `.Ruby >= 2.3.0`
 * Install `Phantomjs >= 2.1.1`
-* Install `Firefox` only `47` version
-* Install `Chrome` and `chromedriver` any version
+* Install `Firefox` only `47` version and `geckodriver latest version`)
+* Install `Chrome` and `chromedriver any version`
 * Install `Bundler`
 ```
 gem install bundler
@@ -92,22 +92,19 @@ gem install bundler
 ```
 bundle install (Gemfile included)
 ```
-
-* Download the geckodriver, chromedriver and phantomjs. Keep them within a
-desired folder and set this folder path on the environment variables.
-
 * Open a command console (e.g. cmder or cmd). Execute the command line below:
-
-* git clone https://github.com/jcarboni2/Projeta_test.git
-
+```
+ git clone https://github.com/jcarboni2/Projeta_test.git
+```
 * Access the folder of downloaded project
 
 * To perform the first activity, execute the command line setting the
 desired configuration as described bellow in the "Notes:"
 
 Command line:
-
+```
 cucumber "browser" USERNAME=tomsmith PASSWORD=SuperSecretPassword! --tag "tag"
+```
 ```
 Notes:
   Change "browser" for chrome=true or firefox=true or headless=true
@@ -120,8 +117,9 @@ Notes:
 desired configuration as described bellow in the "Notes:"
 
 Command line:
-
+```
 cucumber --tag "tag"
+```
 ```
 Notes:
   Change "tag"
