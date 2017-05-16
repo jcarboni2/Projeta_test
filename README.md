@@ -112,8 +112,8 @@ cucumber "browser" USERNAME=tomsmith PASSWORD=SuperSecretPassword! --tag "tag"
 Notes:
 - Change "browser" for chrome=true or firefox=true or headless=true
 - Change "tag"
-  * for feature as @login
-  * for scenario as @valid_login or @invalid_login
+  -> for feature as @login
+  -> for scenario as @valid_login or @invalid_login
 
 
 * To perform the second activity, execute the command line setting the
@@ -125,5 +125,5 @@ cucumber --tag "tag"
 
 Notes:
 - Change "tag"
-  * for feature as @search_cep
-  * for scenario as @valid_cep or @invalid_cep
+  -> for feature as @search_cep
+  -> for scenario as @valid_cep or @invalid_cep
