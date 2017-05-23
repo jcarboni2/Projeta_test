@@ -109,8 +109,8 @@ cucumber "browser" USERNAME=tomsmith PASSWORD=SuperSecretPassword! --tag "tag"
 Notes:
   Change "browser" for chrome=true or firefox=true or headless=true
   Change "tag"
-    For feature as @login
-    For scenario as @valid_login or @invalid_login
+    For feature as @login_out
+    For scenario as @login or @logout
 ```
 
 * To perform the second activity, execute the command line setting the
