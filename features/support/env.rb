@@ -6,8 +6,6 @@ require 'rspec'
 require 'httparty'
 require 'capybara/poltergeist'
 
-Selenium::WebDriver::Firefox::Binary.path='C:\Program Files\Mozilla Firefox\firefox.exe'
-
 if ENV['chrome']
   Capybara.default_driver = :chrome
   Capybara.register_driver :chrome do |app|
