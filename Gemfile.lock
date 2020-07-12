@@ -60,7 +60,7 @@ GEM
     page_navigation (0.10)
       data_magic (>= 0.22)
     public_suffix (3.0.2)
-    rack (2.0.8)
+    rack (2.2.3)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
     rspec (3.7.0)
